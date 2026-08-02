@@ -1,0 +1,106 @@
+/* ==========================================
+   AL QASIMIY TRAVELS
+   THEME VARIABLES
+========================================== */
+
+:root{
+
+    /* Main Colors */
+
+    --primary:#0B1F3A;
+    --secondary:#D4AF37;
+    --accent:#0F52BA;
+
+    /* Background */
+
+    --bg:#07111F;
+    --surface:#10233F;
+
+    /* Text */
+
+    --text:#FFFFFF;
+    --text-light:#D7D7D7;
+
+    /* Others */
+
+    --border:rgba(255,255,255,.08);
+
+    --shadow:0 15px 40px rgba(0,0,0,.30);
+
+    --glass:rgba(255,255,255,.08);
+
+    --gradient:
+        linear-gradient(
+            135deg,
+            #07111F,
+            #0B1F3A,
+            #133D73
+        );
+
+}
+
+
+/* ==========================================
+      LIGHT THEME
+========================================== */
+
+[data-theme="light"]{
+
+    --primary:#0B1F3A;
+    --secondary:#D4AF37;
+    --accent:#0F52BA;
+
+    --bg:#F7F8FA;
+    --surface:#FFFFFF;
+
+    --text:#111111;
+    --text-light:#555555;
+
+    --border:#E2E2E2;
+
+    --shadow:0 12px 30px rgba(0,0,0,.10);
+
+    --glass:rgba(255,255,255,.75);
+
+    --gradient:
+        linear-gradient(
+            135deg,
+            #FFFFFF,
+            #F5F5F5,
+            #ECECEC
+        );
+
+}
+
+
+/* ==========================================
+      ROYAL THEME
+========================================== */
+
+[data-theme="royal"]{
+
+    --primary:#2A0A4E;
+    --secondary:#FFD700;
+    --accent:#7B2CBF;
+
+    --bg:#160329;
+    --surface:#25063D;
+
+    --text:#FFFFFF;
+    --text-light:#F2F2F2;
+
+    --border:rgba(255,215,0,.25);
+
+    --shadow:0 20px 45px rgba(0,0,0,.45);
+
+    --glass:rgba(255,255,255,.06);
+
+    --gradient:
+        linear-gradient(
+            135deg,
+            #160329,
+            #2A0A4E,
+            #43116F
+        );
+
+}
