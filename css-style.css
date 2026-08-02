@@ -532,3 +532,73 @@ header{
     border-color:var(--secondary);
 
 }
+
+/* ==========================================
+   ABOUT SECTION
+========================================== */
+
+.about{
+
+    padding:120px 8%;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.about-image{
+
+    overflow:hidden;
+
+    border-radius:25px;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.6s;
+
+}
+
+.about-image:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.about-content span{
+
+    color:var(--secondary);
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+}
+
+.about-content h2{
+
+    font-size:48px;
+
+    margin:20px 0;
+
+}
+
+.about-content p{
+
+    color:var(--text-light);
+
+    line-height:1.9;
+
+    margin-bottom:20px;
+
+}
