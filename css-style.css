@@ -344,3 +344,81 @@ header{
     color:#111;
 
 }
+
+/* ===============================
+   PLANE ANIMATION
+================================ */
+
+.plane-animation{
+
+    position:absolute;
+
+    top:18%;
+
+    left:-250px;
+
+    z-index:3;
+
+    font-size:42px;
+
+    color:var(--secondary);
+
+    animation:flyPlane 18s linear infinite;
+
+}
+
+/* ===============================
+   SCROLL INDICATOR
+================================ */
+
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+.scroll-indicator span{
+
+    width:32px;
+
+    height:55px;
+
+    border:2px solid white;
+
+    border-radius:50px;
+
+    display:block;
+
+    position:relative;
+
+}
+
+.scroll-indicator span::before{
+
+    content:"";
+
+    width:6px;
+
+    height:10px;
+
+    background:white;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    top:10px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    animation:scrollMove 2s infinite;
+
+}
