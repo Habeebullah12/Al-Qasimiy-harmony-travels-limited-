@@ -177,3 +177,170 @@ header{
     color:#111;
 
 }
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    background:
+    linear-gradient(rgba(4,10,20,.70),
+    rgba(4,10,20,.75)),
+    url("../assets/images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    animation:zoomHero 20s linear infinite alternate;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:radial-gradient(circle at top,
+    rgba(212,175,55,.12),
+    transparent 60%);
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    width:min(900px,90%);
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    color:var(--secondary);
+
+    margin-bottom:25px;
+
+    backdrop-filter:blur(12px);
+
+}
+
+.hero h1{
+
+    font-size:clamp(3rem,8vw,6rem);
+
+    line-height:1.1;
+
+    margin-bottom:20px;
+
+    font-weight:800;
+
+}
+
+.hero h1 span{
+
+    color:var(--secondary);
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:1.15rem;
+
+    color:var(--text-light);
+
+    line-height:1.8;
+
+}
+
+.hero-buttons{
+
+    margin-top:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.4s;
+
+}
+
+.primary{
+
+    background:var(--secondary);
+
+    color:#111;
+
+}
+
+.secondary{
+
+    border:2px solid var(--secondary);
+
+    color:var(--secondary);
+
+}
+
+.primary:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(212,175,55,.45);
+
+}
+
+.secondary:hover{
+
+    background:var(--secondary);
+
+    color:#111;
+
+}
