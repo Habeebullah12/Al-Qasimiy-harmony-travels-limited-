@@ -602,3 +602,61 @@ header{
     margin-bottom:20px;
 
 }
+
+/* ==========================================
+   STATISTICS
+========================================== */
+
+.stats{
+
+    padding:100px 8%;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+    text-align:center;
+
+}
+
+.stat-card{
+
+    background:var(--glass);
+
+    border:1px solid var(--border);
+
+    border-radius:25px;
+
+    padding:45px 30px;
+
+    backdrop-filter:blur(15px);
+
+    transition:.4s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:var(--secondary);
+
+}
+
+.stat-card h2{
+
+    font-size:3rem;
+
+    color:var(--secondary);
+
+    margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+    color:var(--text-light);
+
+}
