@@ -748,3 +748,137 @@ header{
     margin-right:10px;
 
 }
+
+/* ==========================================
+   DESTINATIONS
+========================================== */
+
+.destinations{
+    padding:120px 8%;
+}
+
+.destination-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+}
+
+.destination-card{
+    overflow:hidden;
+    border-radius:25px;
+    background:var(--glass);
+    border:1px solid var(--border);
+    transition:.4s;
+    backdrop-filter:blur(15px);
+}
+
+.destination-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.destination-content{
+    padding:25px;
+}
+
+.destination-content h3{
+    margin-bottom:12px;
+    color:var(--secondary);
+}
+
+.destination-content p{
+    color:var(--text-light);
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.destination-card:hover{
+    transform:translateY(-12px);
+    border-color:var(--secondary);
+    box-shadow:0 25px 45px rgba(0,0,0,.25);
+}
+
+.destination-card:hover img{
+    transform:scale(1.08);
+}
+
+
+/* ==========================================
+   BOOKING SERVICES
+========================================== */
+
+.booking-services{
+
+    padding:120px 8%;
+
+}
+
+.booking-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:35px;
+
+}
+
+.booking-card{
+
+    background:var(--glass);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid var(--border);
+
+    border-radius:25px;
+
+    padding:45px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.booking-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:var(--secondary);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.25);
+
+}
+
+.booking-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,var(--secondary),#f5d76e);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.booking-icon i{
+
+    font-size:38px;
+
+    color:#111;
+
+}
