@@ -45,3 +45,59 @@
     }
 
 }
+
+/* Plane flies across the screen */
+
+@keyframes flyPlane{
+
+    0%{
+
+        left:-250px;
+
+        transform:translateY(0) rotate(-8deg);
+
+    }
+
+    50%{
+
+        transform:translateY(-25px) rotate(3deg);
+
+    }
+
+    100%{
+
+        left:110%;
+
+        transform:translateY(0) rotate(8deg);
+
+    }
+
+}
+
+/* Scroll animation */
+
+@keyframes scrollMove{
+
+    0%{
+
+        opacity:0;
+
+        top:10px;
+
+    }
+
+    50%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        top:30px;
+
+    }
+
+}
