@@ -660,3 +660,91 @@ header{
     color:var(--text-light);
 
 }
+
+/* ==========================================
+   HAJJ & UMRAH
+========================================== */
+
+.hajj-section{
+
+    padding:120px 8%;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.hajj-image img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow);
+
+    transition:.5s;
+
+}
+
+.hajj-image img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.hajj-content span{
+
+    color:var(--secondary);
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+}
+
+.hajj-content h2{
+
+    font-size:48px;
+
+    margin:20px 0;
+
+}
+
+.hajj-content p{
+
+    color:var(--text-light);
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.hajj-features{
+
+    list-style:none;
+
+    margin-bottom:30px;
+
+}
+
+.hajj-features li{
+
+    margin:15px 0;
+
+    font-size:18px;
+
+}
+
+.hajj-features i{
+
+    color:var(--secondary);
+
+    margin-right:10px;
+
+}
