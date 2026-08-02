@@ -1,0 +1,179 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    transition:
+        background .5s,
+        color .5s;
+
+    overflow-x:hidden;
+
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:9999;
+
+    padding:20px 8%;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 35px;
+
+    border-radius:20px;
+
+    backdrop-filter:blur(18px);
+
+    background:var(--glass);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+}
+
+.logo h2{
+
+    color:var(--secondary);
+
+    font-size:28px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    font-weight:500;
+
+    transition:.4s;
+
+    position:relative;
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--secondary);
+
+    transition:.4s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--secondary);
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+.right-nav{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.right-nav button{
+
+    width:48px;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    color:var(--text);
+
+    background:var(--glass);
+
+    transition:.4s;
+
+    font-size:18px;
+
+}
+
+.right-nav button:hover{
+
+    transform:translateY(-5px);
+
+    background:var(--secondary);
+
+    color:#111;
+
+}
