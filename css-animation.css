@@ -1,0 +1,47 @@
+@keyframes zoomHero{
+
+    from{
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        transform:scale(1.12);
+
+    }
+
+}
+
+@keyframes floatPlane{
+
+    0%{
+
+        transform:translateX(-250px);
+
+    }
+
+    100%{
+
+        transform:translateX(calc(100vw + 250px));
+
+    }
+
+}
+
+@keyframes glow{
+
+    0%{
+
+        box-shadow:0 0 10px rgba(212,175,55,.2);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 35px rgba(212,175,55,.6);
+
+    }
+
+}
